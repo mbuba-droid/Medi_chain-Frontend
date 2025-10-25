@@ -144,10 +144,10 @@ export default function PrescriptionPage() {
     <div className="min-h-screen py-10 px-6" style={{
       backgroundImage: `url('/medicine-bg.jpg')`,
       backgroundSize: 'cover',
-      backgroundPosition: 'center',
+      backgroundPosition: 'center top',
       backgroundRepeat: 'no-repeat'
     }}>
-      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-8 border border-gray-200">
+      <div className="max-w-5xl mx-auto bg-white bg-opacity-90 shadow-lg rounded-2xl p-8 border border-gray-200">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center space-x-3">
